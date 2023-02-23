@@ -24,4 +24,10 @@
   .row.detail-status-bar {
     flex-direction: column;
   }
+  .row-cont {
+    align-items: center;
+  }
+  .footer .row {
+    flex-direction: column;
+  }
 }
