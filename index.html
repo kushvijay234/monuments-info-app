@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="./mobile.css" rel="stylesheet" />
+    <title>Monuments info app</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar sticky-top header">
+      <!-- Navbar content -->
+      <a class="navbar-brand logo">Monuments info App</a>
+    </nav>
+
+    <!-- Silder -->
+    <section id="banner">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./assets/taj-mahaal.jpg" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Taj Mahaal</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/India Gate.jpg" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>India Gate</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./assets/Bibi Ka Maqbara.jpg" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bibi Ka Maqbara</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Latest News -->
+    <section id="latestnews">
+      <div class="latest-container">
+        <div class="row-cont">
+          <div class="col-1">Latest Update</div>
+          <div class="col-2">
+            <marquee direction="left">
+              This is a sample scrolling text that has scrolls texts to left.
+            </marquee>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="block">
+      <div class="container text-center">
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                src="./assets/taj-mahaal.jpg"
+                class="card-img-top"
+                alt="taj-mahaal"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Taj Mahal</h3>
+                <button type="button" class="btn">
+                  <a href="./detail-info/taj-mahal.html">Read More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                src="./assets/Bada Bagh.jpg"
+                class="card-img-top"
+                alt="Bada Bagh"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Bada Bagh</h3>
+                <button type="button" class="btn">
+                  <a href="./detail-info/bada-bagh.html">Read More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                src="./assets/Bibi Ka Maqbara.jpg"
+                class="card-img-top"
+                alt="Bibi Ka Maqbara"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Bibi Ka Maqbara</h3>
+                <button type="button" class="btn">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                src="assets/Buddhist Monuments at Sanchi.JPG"
+                class="card-img-top"
+                alt="Buddhist Monuments at Sanchi"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Buddhist at Sanchi</h3>
+                <button type="button" class="btn">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                src="./assets/Champaner-Pavagadh Archaeological Park.jpg"
+                class="card-img-top"
+                alt="Champaner-Pavagadh"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Champaner-Pavagadh</h3>
+                <button type="button" class="btn">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                src="./assets/Charminar.jpg"
+                class="card-img"
+                alt="Charminar"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Charminar</h3>
+                <button type="button" class="btn">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</html>

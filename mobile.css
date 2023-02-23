@@ -1,0 +1,27 @@
+@media screen and (max-width: 420px) {
+  .logo {
+    font-size: 18px;
+  }
+  .col-1 {
+    width: 30%;
+    padding: 0px;
+    font-size: 14px;
+  }
+  .col-2 {
+    width: 70%;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .detail-header .row {
+    flex-direction: column;
+  }
+
+  .detail-header .col {
+    padding: 10px;
+  }
+
+  .row.detail-status-bar {
+    flex-direction: column;
+  }
+}
